@@ -1,8 +1,22 @@
+body{
+    margin:0;
+    background-color: #736F4E;
+}
+
 .site-id{
     display:block;
-    margin: auto;
-    width: 50%;
+    margin: 43px 293px;
+    max-width: 50%;
 }
+
+.img{
+    background-color: #736F4E;
+    display:flex;
+    align-items: center;
+    height: 125px;
+}
+
+
 
 .wide-nav{
     background-color: #B4C292;
@@ -13,6 +27,7 @@
     font-family: bouba-round-variable, sans-serif;
     font-style: normal;
     font-variation-settings: "wght" 400;
+    margin: 0;
 }
 
 .wide-nav-item{
@@ -22,11 +37,28 @@
 .wide-link{
     color: #4C061D;
     display: block;
-    padding: 20px;
+    padding: 10px 49px;
     text-align: center;
     text-decoration: none;
 }
 
 .wide-link:hover{
-    background-color: #d6ddc647;
+    font-weight: bold;
+    
+}
+
+.site-nav{
+    color:#B4C292;
+    list-style-type: none;
+    font-family: bouba-round-variable, sans-serif;
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+    font-size: 30px;
+}
+
+.site-nav-item{
+    margin: 100px;
+    text-align: center;
+    margin-right: 745px;
+    border-style: solid;
 }
