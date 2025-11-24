@@ -5,8 +5,9 @@ body{
 
 .site-id{
     display:block;
-    margin: 43px 293px;
+    margin: auto;
     max-width: 50%;
+    text-align: center;
 }
 
 .img{
@@ -32,12 +33,13 @@ body{
 
 .wide-nav-item{
     margin: auto 8px;
+    flex: 1 0 0;
 }
 
 .wide-link{
     color: #4C061D;
     display: block;
-    padding: 10px 49px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
 }
@@ -54,11 +56,45 @@ body{
     font-style: normal;
     font-variation-settings: "wght" 400;
     font-size: 30px;
+    margin-top: 0;
+    padding-left: 0;
+    font-weight:bold;
 }
 
 .site-nav-item{
-    margin: 100px;
+    margin: 0px;
     text-align: center;
-    margin-right: 745px;
-    border-style: solid;
+    display:flex;
+    align-items:center;
+}
+
+.site-nav-column{
+    flex: 1 0 0;
+    height: 230px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+
+.site-nav-image-1{
+    background-image: url("adventure-africa-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.arrow{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.line{
+    border-bottom-style: solid;
+    border-color: #4C061D;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    left: 20px;
+    margin: 0;
 }
