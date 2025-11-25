@@ -162,3 +162,14 @@ body{
 .footer-list-item:hover{
    font-weight: bold; 
 }
+
+.h1{
+    color:#4C061D;
+    background-color:#B4C292;
+    font-family: bouba-round-variable, sans-serif;
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
