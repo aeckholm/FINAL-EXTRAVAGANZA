@@ -8,6 +8,7 @@ body{
     margin: auto;
     max-width: 50%;
     text-align: center;
+    margin-top: 30px;
 }
 
 .img{
@@ -15,6 +16,7 @@ body{
     display:flex;
     align-items: center;
     height: 125px;
+    margin-bottom: 30px;
 }
 
 
@@ -59,6 +61,7 @@ body{
     margin-top: 0;
     padding-left: 0;
     font-weight:bold;
+    margin-bottom: 0;
 }
 
 .site-nav-item{
@@ -83,6 +86,36 @@ body{
     background-position: center;
 }
 
+.site-nav-image-2{
+    background-image: url("african-waterhole-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.site-nav-image-3{
+    background-image: url("florence-mila-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.site-nav-image-4{
+    background-image: url("north-america-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.site-nav-image-5{
+    background-image: url("northwestern-mutual-image.webp");
+    background-size: cover;
+    background-position: top;
+}
+
+.site-nav-image-6{
+    background-image: url("primates-image.jpeg");
+    background-size: cover;
+    background-position: bottom;
+}
+
 .arrow{
     position: absolute;
     right: 0;
@@ -93,8 +126,39 @@ body{
     border-bottom-style: solid;
     border-color: #4C061D;
     position: absolute;
-    right: 20px;
+    right: 60px;
     bottom: 0;
-    left: 20px;
+    left: 60px;
     margin: 0;
+}
+
+.footer{
+    background-color:#4C061D;
+    list-style-type: none;
+    font-family: bouba-round-variable, sans-serif;
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+    color: #B4C292;
+    margin: 0;
+
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.footer-list{
+    margin: auto 8px;
+    flex: 1 0 0;
+}
+
+.footer-list-item{
+    color: #B4C292;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-list-item:hover{
+   font-weight: bold; 
 }

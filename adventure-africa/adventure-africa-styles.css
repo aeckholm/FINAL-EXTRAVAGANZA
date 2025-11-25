@@ -1,0 +1,49 @@
+.aa-nav{
+    background-color: #B4C292;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0;
+    font-family: bouba-round-variable, sans-serif;
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+    margin: 0;
+}
+
+.aa-nav-item{
+    text-align: center;
+    display:flex;
+    align-items:center;
+}
+
+.aa-list{
+    color: #4C061D;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.aa-list:hover{
+    font-weight: bold;
+}
+
+.about{
+    background-color: #B4C292;
+
+}
+
+.animals{
+    font-family: bouba-round-variable, sans-serif;
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+
+.animals-list{
+    color:#B4C292;
+}
+
+
+
