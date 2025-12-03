@@ -57,7 +57,7 @@ body{
     font-family: bouba-round-variable, sans-serif;
     font-style: normal;
     font-variation-settings: "wght" 400;
-    font-size: 30px;
+    font-size: 38px;
     margin-top: 0;
     padding-left: 0;
     font-weight:bold;
@@ -73,7 +73,7 @@ body{
 
 .site-nav-column{
     flex: 1 0 0;
-    height: 230px;
+    height: 300px;
     display:flex;
     align-items:center;
     justify-content: center;
