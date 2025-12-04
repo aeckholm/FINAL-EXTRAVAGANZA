@@ -132,6 +132,13 @@ body{
     margin: 0;
 }
 
+.footer-position{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
+
 .footer{
     background-color:#4C061D;
     list-style-type: none;
